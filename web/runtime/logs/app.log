@@ -1,0 +1,642 @@
+2022-07-19 22:19:37 [188.170.75.211][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "". in /home/leonid/web/flower.xn--80ahdri7a.site/public_html/vendor/yiisoft/yii2/base/Module.php:561
+Stack trace:
+#0 /home/leonid/web/flower.xn--80ahdri7a.site/public_html/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#1 /home/leonid/web/flower.xn--80ahdri7a.site/public_html/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#2 /home/leonid/web/flower.xn--80ahdri7a.site/public_html/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/leonid/web/flower.xn--80ahdri7a.site/public_html/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/leonid/web/flower.xn--80ahdri7a.site/public_html/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#1 /home/leonid/web/flower.xn--80ahdri7a.site/public_html/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2022-07-19 22:19:37 [188.170.75.211][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '30b48ac60baf84c6b009e7be8046826f1b516ebca09eb7e38f3f268c3ae7be19a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pUrsY41dGxYOqSWKqDWv0-aBr_JgXu_p\";}'
+    'PHPSESSID' => '48ioreuv6ph0arnoh8jg5p10f9'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'TEMP' => '/home/leonid/tmp'
+    'TMPDIR' => '/home/leonid/tmp'
+    'TMP' => '/home/leonid/tmp'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'USER' => 'leonid'
+    'HOME' => '/home/leonid'
+    'SCRIPT_NAME' => '/web/index.php'
+    'REQUEST_URI' => '/site/contact'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/web/site/contact'
+    'REMOTE_PORT' => '41742'
+    'SCRIPT_FILENAME' => '/home/leonid/web/flower.xn--80ahdri7a.site/public_html/web/index.php'
+    'SERVER_ADMIN' => 'info@flower.xn--80ahdri7a.site'
+    'CONTEXT_DOCUMENT_ROOT' => '/home/leonid/web/flower.xn--80ahdri7a.site/public_html'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'https'
+    'DOCUMENT_ROOT' => '/home/leonid/web/flower.xn--80ahdri7a.site/public_html'
+    'REMOTE_ADDR' => '188.170.75.211'
+    'SERVER_PORT' => '443'
+    'SERVER_ADDR' => '185.43.7.26'
+    'SERVER_NAME' => 'flower.xn--80ahdri7a.site'
+    'SERVER_SOFTWARE' => 'Apache/2.4.51 (Ubuntu) mod_fcgid/2.3.9 OpenSSL/1.1.1f'
+    'SERVER_SIGNATURE' => ''
+    'HTTP_COOKIE' => '_csrf=30b48ac60baf84c6b009e7be8046826f1b516ebca09eb7e38f3f268c3ae7be19a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pUrsY41dGxYOqSWKqDWv0-aBr_JgXu_p%22%3B%7D; PHPSESSID=48ioreuv6ph0arnoh8jg5p10f9'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Linux\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA' => '\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"100\", \"Google Chrome\";v=\"100\"'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_X_FORWARDED_FOR' => '188.170.75.211'
+    'HTTP_HOST' => 'flower.xn--80ahdri7a.site'
+    'proxy-nokeepalive' => '1'
+    'HTTPS' => 'on'
+    'REDIRECT_STATUS' => '200'
+    'REDIRECT_HTTPS' => 'on'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_REDIRECT_HTTPS' => 'on'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1658269177.8629
+    'REQUEST_TIME' => 1658269177
+]
+2022-07-19 22:25:04 [188.170.75.211][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "". in /home/leonid/web/flower.xn--80ahdri7a.site/public_html/vendor/yiisoft/yii2/base/Module.php:561
+Stack trace:
+#0 /home/leonid/web/flower.xn--80ahdri7a.site/public_html/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#1 /home/leonid/web/flower.xn--80ahdri7a.site/public_html/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#2 /home/leonid/web/flower.xn--80ahdri7a.site/public_html/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/leonid/web/flower.xn--80ahdri7a.site/public_html/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/leonid/web/flower.xn--80ahdri7a.site/public_html/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#1 /home/leonid/web/flower.xn--80ahdri7a.site/public_html/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2022-07-19 22:25:04 [188.170.75.211][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '30b48ac60baf84c6b009e7be8046826f1b516ebca09eb7e38f3f268c3ae7be19a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pUrsY41dGxYOqSWKqDWv0-aBr_JgXu_p\";}'
+    'PHPSESSID' => '48ioreuv6ph0arnoh8jg5p10f9'
+    'XDEBUG_SESSION' => 'PHPSTORM'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'TEMP' => '/home/leonid/tmp'
+    'TMPDIR' => '/home/leonid/tmp'
+    'TMP' => '/home/leonid/tmp'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'USER' => 'leonid'
+    'HOME' => '/home/leonid'
+    'SCRIPT_NAME' => '/web/index.php'
+    'REQUEST_URI' => '/'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/'
+    'REMOTE_PORT' => '41782'
+    'SCRIPT_FILENAME' => '/home/leonid/web/flower.xn--80ahdri7a.site/public_html/web/index.php'
+    'SERVER_ADMIN' => 'info@flower.xn--80ahdri7a.site'
+    'CONTEXT_DOCUMENT_ROOT' => '/home/leonid/web/flower.xn--80ahdri7a.site/public_html'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'https'
+    'DOCUMENT_ROOT' => '/home/leonid/web/flower.xn--80ahdri7a.site/public_html'
+    'REMOTE_ADDR' => '188.170.75.211'
+    'SERVER_PORT' => '443'
+    'SERVER_ADDR' => '185.43.7.26'
+    'SERVER_NAME' => 'flower.xn--80ahdri7a.site'
+    'SERVER_SOFTWARE' => 'Apache/2.4.51 (Ubuntu) mod_fcgid/2.3.9 OpenSSL/1.1.1f'
+    'SERVER_SIGNATURE' => ''
+    'HTTP_COOKIE' => '_csrf=30b48ac60baf84c6b009e7be8046826f1b516ebca09eb7e38f3f268c3ae7be19a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pUrsY41dGxYOqSWKqDWv0-aBr_JgXu_p%22%3B%7D; PHPSESSID=48ioreuv6ph0arnoh8jg5p10f9; XDEBUG_SESSION=PHPSTORM'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Linux\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA' => '\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"100\", \"Google Chrome\";v=\"100\"'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_X_FORWARDED_FOR' => '188.170.75.211'
+    'HTTP_HOST' => 'flower.xn--80ahdri7a.site'
+    'proxy-nokeepalive' => '1'
+    'HTTPS' => 'on'
+    'REDIRECT_STATUS' => '200'
+    'REDIRECT_HTTPS' => 'on'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1658269504.3803
+    'REQUEST_TIME' => 1658269504
+]
+2022-07-19 22:25:55 [188.170.75.211][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "". in /home/leonid/web/flower.xn--80ahdri7a.site/public_html/vendor/yiisoft/yii2/base/Module.php:561
+Stack trace:
+#0 /home/leonid/web/flower.xn--80ahdri7a.site/public_html/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#1 /home/leonid/web/flower.xn--80ahdri7a.site/public_html/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#2 /home/leonid/web/flower.xn--80ahdri7a.site/public_html/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/leonid/web/flower.xn--80ahdri7a.site/public_html/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/leonid/web/flower.xn--80ahdri7a.site/public_html/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#1 /home/leonid/web/flower.xn--80ahdri7a.site/public_html/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2022-07-19 22:25:54 [188.170.75.211][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '30b48ac60baf84c6b009e7be8046826f1b516ebca09eb7e38f3f268c3ae7be19a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pUrsY41dGxYOqSWKqDWv0-aBr_JgXu_p\";}'
+    'PHPSESSID' => '48ioreuv6ph0arnoh8jg5p10f9'
+    'XDEBUG_SESSION' => 'PHPSTORM'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'TEMP' => '/home/leonid/tmp'
+    'TMPDIR' => '/home/leonid/tmp'
+    'TMP' => '/home/leonid/tmp'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'USER' => 'leonid'
+    'HOME' => '/home/leonid'
+    'SCRIPT_NAME' => '/web/index.php'
+    'REQUEST_URI' => '/'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/'
+    'REMOTE_PORT' => '41808'
+    'SCRIPT_FILENAME' => '/home/leonid/web/flower.xn--80ahdri7a.site/public_html/web/index.php'
+    'SERVER_ADMIN' => 'info@flower.xn--80ahdri7a.site'
+    'CONTEXT_DOCUMENT_ROOT' => '/home/leonid/web/flower.xn--80ahdri7a.site/public_html'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'https'
+    'DOCUMENT_ROOT' => '/home/leonid/web/flower.xn--80ahdri7a.site/public_html'
+    'REMOTE_ADDR' => '188.170.75.211'
+    'SERVER_PORT' => '443'
+    'SERVER_ADDR' => '185.43.7.26'
+    'SERVER_NAME' => 'flower.xn--80ahdri7a.site'
+    'SERVER_SOFTWARE' => 'Apache/2.4.51 (Ubuntu) mod_fcgid/2.3.9 OpenSSL/1.1.1f'
+    'SERVER_SIGNATURE' => ''
+    'HTTP_COOKIE' => '_csrf=30b48ac60baf84c6b009e7be8046826f1b516ebca09eb7e38f3f268c3ae7be19a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pUrsY41dGxYOqSWKqDWv0-aBr_JgXu_p%22%3B%7D; PHPSESSID=48ioreuv6ph0arnoh8jg5p10f9; XDEBUG_SESSION=PHPSTORM'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Linux\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA' => '\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"100\", \"Google Chrome\";v=\"100\"'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_X_FORWARDED_FOR' => '188.170.75.211'
+    'HTTP_HOST' => 'flower.xn--80ahdri7a.site'
+    'proxy-nokeepalive' => '1'
+    'HTTPS' => 'on'
+    'REDIRECT_STATUS' => '200'
+    'REDIRECT_HTTPS' => 'on'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1658269554.9965
+    'REQUEST_TIME' => 1658269554
+]
+2022-07-19 22:25:57 [188.170.75.211][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "". in /home/leonid/web/flower.xn--80ahdri7a.site/public_html/vendor/yiisoft/yii2/base/Module.php:561
+Stack trace:
+#0 /home/leonid/web/flower.xn--80ahdri7a.site/public_html/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#1 /home/leonid/web/flower.xn--80ahdri7a.site/public_html/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#2 /home/leonid/web/flower.xn--80ahdri7a.site/public_html/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/leonid/web/flower.xn--80ahdri7a.site/public_html/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/leonid/web/flower.xn--80ahdri7a.site/public_html/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#1 /home/leonid/web/flower.xn--80ahdri7a.site/public_html/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2022-07-19 22:25:57 [188.170.75.211][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '30b48ac60baf84c6b009e7be8046826f1b516ebca09eb7e38f3f268c3ae7be19a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pUrsY41dGxYOqSWKqDWv0-aBr_JgXu_p\";}'
+    'PHPSESSID' => '48ioreuv6ph0arnoh8jg5p10f9'
+    'XDEBUG_SESSION' => 'PHPSTORM'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'TEMP' => '/home/leonid/tmp'
+    'TMPDIR' => '/home/leonid/tmp'
+    'TMP' => '/home/leonid/tmp'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'USER' => 'leonid'
+    'HOME' => '/home/leonid'
+    'SCRIPT_NAME' => '/web/index.php'
+    'REQUEST_URI' => '/'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/'
+    'REMOTE_PORT' => '41834'
+    'SCRIPT_FILENAME' => '/home/leonid/web/flower.xn--80ahdri7a.site/public_html/web/index.php'
+    'SERVER_ADMIN' => 'info@flower.xn--80ahdri7a.site'
+    'CONTEXT_DOCUMENT_ROOT' => '/home/leonid/web/flower.xn--80ahdri7a.site/public_html'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'https'
+    'DOCUMENT_ROOT' => '/home/leonid/web/flower.xn--80ahdri7a.site/public_html'
+    'REMOTE_ADDR' => '188.170.75.211'
+    'SERVER_PORT' => '443'
+    'SERVER_ADDR' => '185.43.7.26'
+    'SERVER_NAME' => 'flower.xn--80ahdri7a.site'
+    'SERVER_SOFTWARE' => 'Apache/2.4.51 (Ubuntu) mod_fcgid/2.3.9 OpenSSL/1.1.1f'
+    'SERVER_SIGNATURE' => ''
+    'HTTP_COOKIE' => '_csrf=30b48ac60baf84c6b009e7be8046826f1b516ebca09eb7e38f3f268c3ae7be19a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pUrsY41dGxYOqSWKqDWv0-aBr_JgXu_p%22%3B%7D; PHPSESSID=48ioreuv6ph0arnoh8jg5p10f9; XDEBUG_SESSION=PHPSTORM'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Linux\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA' => '\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"100\", \"Google Chrome\";v=\"100\"'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_X_FORWARDED_FOR' => '188.170.75.211'
+    'HTTP_HOST' => 'flower.xn--80ahdri7a.site'
+    'proxy-nokeepalive' => '1'
+    'HTTPS' => 'on'
+    'REDIRECT_STATUS' => '200'
+    'REDIRECT_HTTPS' => 'on'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1658269557.1771
+    'REQUEST_TIME' => 1658269557
+]
+2022-07-19 22:25:58 [188.170.75.211][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "". in /home/leonid/web/flower.xn--80ahdri7a.site/public_html/vendor/yiisoft/yii2/base/Module.php:561
+Stack trace:
+#0 /home/leonid/web/flower.xn--80ahdri7a.site/public_html/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#1 /home/leonid/web/flower.xn--80ahdri7a.site/public_html/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#2 /home/leonid/web/flower.xn--80ahdri7a.site/public_html/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/leonid/web/flower.xn--80ahdri7a.site/public_html/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/leonid/web/flower.xn--80ahdri7a.site/public_html/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#1 /home/leonid/web/flower.xn--80ahdri7a.site/public_html/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2022-07-19 22:25:58 [188.170.75.211][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '30b48ac60baf84c6b009e7be8046826f1b516ebca09eb7e38f3f268c3ae7be19a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pUrsY41dGxYOqSWKqDWv0-aBr_JgXu_p\";}'
+    'PHPSESSID' => '48ioreuv6ph0arnoh8jg5p10f9'
+    'XDEBUG_SESSION' => 'PHPSTORM'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'TEMP' => '/home/leonid/tmp'
+    'TMPDIR' => '/home/leonid/tmp'
+    'TMP' => '/home/leonid/tmp'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'USER' => 'leonid'
+    'HOME' => '/home/leonid'
+    'SCRIPT_NAME' => '/web/index.php'
+    'REQUEST_URI' => '/'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/'
+    'REMOTE_PORT' => '41860'
+    'SCRIPT_FILENAME' => '/home/leonid/web/flower.xn--80ahdri7a.site/public_html/web/index.php'
+    'SERVER_ADMIN' => 'info@flower.xn--80ahdri7a.site'
+    'CONTEXT_DOCUMENT_ROOT' => '/home/leonid/web/flower.xn--80ahdri7a.site/public_html'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'https'
+    'DOCUMENT_ROOT' => '/home/leonid/web/flower.xn--80ahdri7a.site/public_html'
+    'REMOTE_ADDR' => '188.170.75.211'
+    'SERVER_PORT' => '443'
+    'SERVER_ADDR' => '185.43.7.26'
+    'SERVER_NAME' => 'flower.xn--80ahdri7a.site'
+    'SERVER_SOFTWARE' => 'Apache/2.4.51 (Ubuntu) mod_fcgid/2.3.9 OpenSSL/1.1.1f'
+    'SERVER_SIGNATURE' => ''
+    'HTTP_COOKIE' => '_csrf=30b48ac60baf84c6b009e7be8046826f1b516ebca09eb7e38f3f268c3ae7be19a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pUrsY41dGxYOqSWKqDWv0-aBr_JgXu_p%22%3B%7D; PHPSESSID=48ioreuv6ph0arnoh8jg5p10f9; XDEBUG_SESSION=PHPSTORM'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Linux\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA' => '\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"100\", \"Google Chrome\";v=\"100\"'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_X_FORWARDED_FOR' => '188.170.75.211'
+    'HTTP_HOST' => 'flower.xn--80ahdri7a.site'
+    'proxy-nokeepalive' => '1'
+    'HTTPS' => 'on'
+    'REDIRECT_STATUS' => '200'
+    'REDIRECT_HTTPS' => 'on'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1658269558.3385
+    'REQUEST_TIME' => 1658269558
+]
+2022-07-19 22:26:05 [188.170.75.211][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "". in /home/leonid/web/flower.xn--80ahdri7a.site/public_html/vendor/yiisoft/yii2/base/Module.php:561
+Stack trace:
+#0 /home/leonid/web/flower.xn--80ahdri7a.site/public_html/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#1 /home/leonid/web/flower.xn--80ahdri7a.site/public_html/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#2 /home/leonid/web/flower.xn--80ahdri7a.site/public_html/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/leonid/web/flower.xn--80ahdri7a.site/public_html/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/leonid/web/flower.xn--80ahdri7a.site/public_html/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#1 /home/leonid/web/flower.xn--80ahdri7a.site/public_html/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2022-07-19 22:26:05 [188.170.75.211][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '30b48ac60baf84c6b009e7be8046826f1b516ebca09eb7e38f3f268c3ae7be19a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pUrsY41dGxYOqSWKqDWv0-aBr_JgXu_p\";}'
+    'PHPSESSID' => '48ioreuv6ph0arnoh8jg5p10f9'
+    'XDEBUG_SESSION' => 'PHPSTORM'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'TEMP' => '/home/leonid/tmp'
+    'TMPDIR' => '/home/leonid/tmp'
+    'TMP' => '/home/leonid/tmp'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'USER' => 'leonid'
+    'HOME' => '/home/leonid'
+    'SCRIPT_NAME' => '/web/index.php'
+    'REQUEST_URI' => '/web/'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '41886'
+    'SCRIPT_FILENAME' => '/home/leonid/web/flower.xn--80ahdri7a.site/public_html/web/index.php'
+    'SERVER_ADMIN' => 'info@flower.xn--80ahdri7a.site'
+    'CONTEXT_DOCUMENT_ROOT' => '/home/leonid/web/flower.xn--80ahdri7a.site/public_html'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'https'
+    'DOCUMENT_ROOT' => '/home/leonid/web/flower.xn--80ahdri7a.site/public_html'
+    'REMOTE_ADDR' => '188.170.75.211'
+    'SERVER_PORT' => '443'
+    'SERVER_ADDR' => '185.43.7.26'
+    'SERVER_NAME' => 'flower.xn--80ahdri7a.site'
+    'SERVER_SOFTWARE' => 'Apache/2.4.51 (Ubuntu) mod_fcgid/2.3.9 OpenSSL/1.1.1f'
+    'SERVER_SIGNATURE' => ''
+    'HTTP_COOKIE' => '_csrf=30b48ac60baf84c6b009e7be8046826f1b516ebca09eb7e38f3f268c3ae7be19a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pUrsY41dGxYOqSWKqDWv0-aBr_JgXu_p%22%3B%7D; PHPSESSID=48ioreuv6ph0arnoh8jg5p10f9; XDEBUG_SESSION=PHPSTORM'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Linux\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA' => '\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"100\", \"Google Chrome\";v=\"100\"'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_X_FORWARDED_FOR' => '188.170.75.211'
+    'HTTP_HOST' => 'flower.xn--80ahdri7a.site'
+    'proxy-nokeepalive' => '1'
+    'HTTPS' => 'on'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1658269565.3867
+    'REQUEST_TIME' => 1658269565
+]
+2022-07-19 22:26:50 [188.170.75.211][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "". in /home/leonid/web/flower.xn--80ahdri7a.site/public_html/vendor/yiisoft/yii2/base/Module.php:561
+Stack trace:
+#0 /home/leonid/web/flower.xn--80ahdri7a.site/public_html/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#1 /home/leonid/web/flower.xn--80ahdri7a.site/public_html/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#2 /home/leonid/web/flower.xn--80ahdri7a.site/public_html/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/leonid/web/flower.xn--80ahdri7a.site/public_html/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/leonid/web/flower.xn--80ahdri7a.site/public_html/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#1 /home/leonid/web/flower.xn--80ahdri7a.site/public_html/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2022-07-19 22:26:50 [188.170.75.211][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '30b48ac60baf84c6b009e7be8046826f1b516ebca09eb7e38f3f268c3ae7be19a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pUrsY41dGxYOqSWKqDWv0-aBr_JgXu_p\";}'
+    'PHPSESSID' => '48ioreuv6ph0arnoh8jg5p10f9'
+    'XDEBUG_SESSION' => 'PHPSTORM'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'TEMP' => '/home/leonid/tmp'
+    'TMPDIR' => '/home/leonid/tmp'
+    'TMP' => '/home/leonid/tmp'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'USER' => 'leonid'
+    'HOME' => '/home/leonid'
+    'SCRIPT_NAME' => '/web/index.php'
+    'REQUEST_URI' => '/web/'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '41936'
+    'SCRIPT_FILENAME' => '/home/leonid/web/flower.xn--80ahdri7a.site/public_html/web/index.php'
+    'SERVER_ADMIN' => 'info@flower.xn--80ahdri7a.site'
+    'CONTEXT_DOCUMENT_ROOT' => '/home/leonid/web/flower.xn--80ahdri7a.site/public_html'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'https'
+    'DOCUMENT_ROOT' => '/home/leonid/web/flower.xn--80ahdri7a.site/public_html'
+    'REMOTE_ADDR' => '188.170.75.211'
+    'SERVER_PORT' => '443'
+    'SERVER_ADDR' => '185.43.7.26'
+    'SERVER_NAME' => 'flower.xn--80ahdri7a.site'
+    'SERVER_SOFTWARE' => 'Apache/2.4.51 (Ubuntu) mod_fcgid/2.3.9 OpenSSL/1.1.1f'
+    'SERVER_SIGNATURE' => ''
+    'HTTP_COOKIE' => '_csrf=30b48ac60baf84c6b009e7be8046826f1b516ebca09eb7e38f3f268c3ae7be19a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pUrsY41dGxYOqSWKqDWv0-aBr_JgXu_p%22%3B%7D; PHPSESSID=48ioreuv6ph0arnoh8jg5p10f9; XDEBUG_SESSION=PHPSTORM'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Linux\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA' => '\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"100\", \"Google Chrome\";v=\"100\"'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_X_FORWARDED_FOR' => '188.170.75.211'
+    'HTTP_HOST' => 'flower.xn--80ahdri7a.site'
+    'proxy-nokeepalive' => '1'
+    'HTTPS' => 'on'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1658269610.5578
+    'REQUEST_TIME' => 1658269610
+]
+2022-07-19 22:26:56 [188.170.75.211][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "". in /home/leonid/web/flower.xn--80ahdri7a.site/public_html/vendor/yiisoft/yii2/base/Module.php:561
+Stack trace:
+#0 /home/leonid/web/flower.xn--80ahdri7a.site/public_html/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#1 /home/leonid/web/flower.xn--80ahdri7a.site/public_html/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#2 /home/leonid/web/flower.xn--80ahdri7a.site/public_html/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/leonid/web/flower.xn--80ahdri7a.site/public_html/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/leonid/web/flower.xn--80ahdri7a.site/public_html/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#1 /home/leonid/web/flower.xn--80ahdri7a.site/public_html/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2022-07-19 22:26:56 [188.170.75.211][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '30b48ac60baf84c6b009e7be8046826f1b516ebca09eb7e38f3f268c3ae7be19a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pUrsY41dGxYOqSWKqDWv0-aBr_JgXu_p\";}'
+    'PHPSESSID' => '48ioreuv6ph0arnoh8jg5p10f9'
+    'XDEBUG_SESSION' => 'PHPSTORM'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'TEMP' => '/home/leonid/tmp'
+    'TMPDIR' => '/home/leonid/tmp'
+    'TMP' => '/home/leonid/tmp'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'USER' => 'leonid'
+    'HOME' => '/home/leonid'
+    'SCRIPT_NAME' => '/web/index.php'
+    'REQUEST_URI' => '/'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/'
+    'REMOTE_PORT' => '41964'
+    'SCRIPT_FILENAME' => '/home/leonid/web/flower.xn--80ahdri7a.site/public_html/web/index.php'
+    'SERVER_ADMIN' => 'info@flower.xn--80ahdri7a.site'
+    'CONTEXT_DOCUMENT_ROOT' => '/home/leonid/web/flower.xn--80ahdri7a.site/public_html'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'https'
+    'DOCUMENT_ROOT' => '/home/leonid/web/flower.xn--80ahdri7a.site/public_html'
+    'REMOTE_ADDR' => '188.170.75.211'
+    'SERVER_PORT' => '443'
+    'SERVER_ADDR' => '185.43.7.26'
+    'SERVER_NAME' => 'flower.xn--80ahdri7a.site'
+    'SERVER_SOFTWARE' => 'Apache/2.4.51 (Ubuntu) mod_fcgid/2.3.9 OpenSSL/1.1.1f'
+    'SERVER_SIGNATURE' => ''
+    'HTTP_COOKIE' => '_csrf=30b48ac60baf84c6b009e7be8046826f1b516ebca09eb7e38f3f268c3ae7be19a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pUrsY41dGxYOqSWKqDWv0-aBr_JgXu_p%22%3B%7D; PHPSESSID=48ioreuv6ph0arnoh8jg5p10f9; XDEBUG_SESSION=PHPSTORM'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Linux\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA' => '\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"100\", \"Google Chrome\";v=\"100\"'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_X_FORWARDED_FOR' => '188.170.75.211'
+    'HTTP_HOST' => 'flower.xn--80ahdri7a.site'
+    'proxy-nokeepalive' => '1'
+    'HTTPS' => 'on'
+    'REDIRECT_STATUS' => '200'
+    'REDIRECT_HTTPS' => 'on'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1658269616.0844
+    'REQUEST_TIME' => 1658269616
+]
