@@ -3,6 +3,8 @@
 
 use yii\bootstrap4\ActiveForm;
 use yii\bootstrap4\Html;
+use \yii\widgets\Pjax;
+
 
 /* @var $this yii\web\View */
 /* @var $model app\models\RegForm */
@@ -10,8 +12,9 @@ use yii\bootstrap4\Html;
 ?>
 
 <div class="user-form">
+    <?php
 
-    <?php $form = ActiveForm::begin(['id'=>'user-form']); ?>
+     $form = ActiveForm::begin(['id'=>'user-form']); ?>
 
 
     <?= $form->field($model, 'name')->textInput(['maxlength' => true]) ?>
@@ -20,7 +23,7 @@ use yii\bootstrap4\Html;
 
     <?= $form->field($model, 'surname')->textInput(['maxlength' => true]) ?>
 
-    <?= $form->field($model, 'login')->textInput(['maxlength' => true]) ?>
+    <?= $form->field($model, 'login', ['enableAjaxValidation' => true])->textInput(['maxlength' => true]) ?>
 
     <?= $form->field($model, 'password')->passwordInput(['maxlength' => true]) ?>
 
@@ -34,7 +37,7 @@ use yii\bootstrap4\Html;
         <?= Html::submitButton('Сохранить', ['class' => 'btn btn-success']) ?>
     </div>
 
-    <?php ActiveForm::end(); ?>
+    <?php ActiveForm::end();    ?>
 
 </div>
 
