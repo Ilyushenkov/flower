@@ -120,7 +120,12 @@ class ArticleController extends Controller
                 $model->photo = $hash;
                 $model->save(false);
                 return $this->redirect(['/article/admin?sort=-date']);
-            }}
+            }
+
+        }
+        else {
+            return $this->render('update', ['model'=>$model]);
+        }
     }
 
     /**
